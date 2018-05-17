@@ -1,5 +1,10 @@
 .wrap {
     display: flex;
+    position: fixed;
+    left: 50%;
+    margin-left: -350px;
+    width: 700px;
+    height: 700px;
     justify-content: center;
     align-items: center;
 }
