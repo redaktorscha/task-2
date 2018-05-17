@@ -1,27 +1,14 @@
-.circle {
-border-radius: 50%;
-position: relative;
-bottom: 0;
-left: 0;
-right: 0;
-top: 0;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.circle-1
-{
-    border-radius: 50%;
-    position: absolute;
-    bottom: 50;
-    left: 50;
-    right: 50;
-    top: 50;
+.wrap {
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+}
+.circle {
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+   }
 
 .circle-red {
     background-color: red;
@@ -63,4 +50,3 @@ align-items: center;
     background-color: #660066;
     width: 100px;
     height: 100px;
-}
