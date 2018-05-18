@@ -1,0 +1,71 @@
+.backgroundclr {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(rgb(71, 33, 71), rgb(76, 76, 199), grey, rgb(71, 33, 71));
+    justify-content: center;
+    align-items: center;
+}
+.wrap {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-red {
+    background-color: rgb(223, 22, 22);
+    width: 700px;
+    height: 700px;
+}
+
+.circle-orange {
+    background-color: rgba(255, 166, 0, 0.616);
+    width: 600px;
+    height: 600px;
+}
+
+.circle-yellow {
+    background-color: rgb(233, 233, 13);
+    width: 500px;
+    height: 500px;
+}
+
+.circle-green {
+    background-color: rgb(41, 168, 41);
+    width: 400px;
+    height: 400px;
+}
+
+.circle-lblue {
+    background-color: rgb(82, 195, 236);
+    width: 300px;
+    height: 300px;
+}
+
+.circle-dblue {
+    background-color: rgb(57, 44, 228);
+    width: 200px;
+    height: 200px;
+}
+
+.circle-purple {
+    background-color: rgb(71, 33, 71);
+    width: 100px;
+    height: 100px;
+}
