@@ -1,20 +1,20 @@
 .wrap {
     display: flex;
-    position: relative;
-    width: 700px;
-    height: 700px;
-    left: 50%;
-    margin-left: -350px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     justify-content: center;
     align-items: center;
 }
+
 .circle {
     display: flex;
-    position: absolute;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-   }
+}
 
 .circle-red {
     background-color: red;
@@ -56,3 +56,4 @@
     background-color: #660066;
     width: 100px;
     height: 100px;
+}
