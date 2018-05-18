@@ -1,7 +1,7 @@
-# Занятие 2
+# **Занятие 2**
 ## Git, HTML, CSS
 
-# Git
+## **Git**
 
 * git init
 * git clone
@@ -15,7 +15,7 @@
 * git pull
 * git push
 
-## HTML теги
+## **HTML теги**
 
 * С закрывающим тэгом `<html>Something</html>`
 * Без закрывающего тега `<input>`
@@ -24,7 +24,7 @@
   `<div class=“some-class”>Something</div>`
 * Вложенность тегов `<html><head>…</head></html>`
 
-## Несколько тегов
+## **Несколько тегов**
 
 * html
 * head
@@ -34,13 +34,13 @@
 * body
 * div
 
-## Несколько свойств тегов
+## **Несколько свойств тегов**
 
 * class
 * href
 * lang
 
-## Базовый шаблон html файла
+## **Базовый шаблон html файла**
 
 `<!doctype html>`
 
@@ -69,7 +69,7 @@
 `</html>`
 
 
-## CSS классы
+## **CSS классы**
 
 .class-name {
 
@@ -85,7 +85,7 @@ property2-name: property2-value;
 
 }
 
-## Общие свойства нескольких классов
+## **Общие свойства нескольких классов**
 
 .class-1, .class-2, .class-3 {
 
@@ -95,7 +95,7 @@ common-property-1: common-property-value-1;
 
 }
 
-## Несколько свойств CSS
+## **Несколько свойств CSS**
 
 * position: static | absolute | fixed | relative
 * top, bottom, left, right
@@ -105,11 +105,11 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * align-items, justify-content
 * background-color: red | #327a15 | rgba(10, 20, 30, 0.5)
 
-## Задание 2
+## **Задание 2**
 
 ![alt text](circle.png)
 
-## Постановка задачи
+## **Постановка задачи**
 
 * Цветной объект должен иметь диаметр 700 пикселей.
 * Цветной объект должен располагаться по центру экрана по горизонтали и
