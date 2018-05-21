@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(71, 33, 71), rgb(76, 76, 199), grey, rgb(71, 33, 71));
+    overflow: hidden;
+}
+
+div {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    bottom: -350px;
+}
+
+.shadow-rainbow {
+    box-shadow: 0 0 0 20px purple, 0 0 0 40px rgb(57, 44, 228),
+    0 0 0 60px rgb(82, 195, 236), 0 0 0 80px green, 0 0 0 100px yellow,
+    0 0 0 120px orange, 0 0 0 140px red;
+    border-radius: 50%;
+}
